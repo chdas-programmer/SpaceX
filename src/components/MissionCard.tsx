@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { Launch } from "@/types/spacex";
+import { LaunchWithRocket } from "@/types/spacex";
 
 interface MissionCardProps {
-  launch: Launch;
+  launch: LaunchWithRocket;
   isFavorite: boolean;
   toggleFavorite: (id: string) => void;
   formatDate: (dateString: string) => string;
@@ -30,7 +30,7 @@ export const MissionCard = ({ launch, isFavorite, toggleFavorite, formatDate, fo
 
       {/* Info */}
       <div className="text-sm text-gray-600 mb-2">
-        {launchDate}, {launchTime} · {launch.rocket}
+        {launchDate}, {launchTime} · {launch.rocketName}
       </div>
 
       {/* Tags */}

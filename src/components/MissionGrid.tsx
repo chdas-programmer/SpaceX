@@ -1,8 +1,8 @@
 import { MissionCard } from "./MissionCard";
-import { Launch } from "@/types/spacex";
+import { LaunchWithRocket } from "@/types/spacex";
 
 interface MissionGridProps {
-  launches: Launch[];
+  launches: LaunchWithRocket[];
   favorites: string[];
   toggleFavorite: (id: string) => void;
   formatDate: (d: string) => string;

@@ -53,7 +53,7 @@ export const LaunchCard: React.FC<LaunchCardProps> = ({ launch }) => {
 
         <CardContent onClick={() => setShowDetail(true)}>
           {/* Mission Patch */}
-          <div className="flex justify-center mb-4">
+          {/* <div className="flex justify-center mb-4">
             {launch.links.patch.small ? (
               <img
                 src={launch.links.patch.small}
@@ -69,7 +69,7 @@ export const LaunchCard: React.FC<LaunchCardProps> = ({ launch }) => {
                 <Rocket className="h-8 w-8 text-muted-foreground" />
               </div>
             )}
-          </div>
+          </div> */}
 
           {/* Rocket Info */}
           <div className="space-y-2 mb-4">
