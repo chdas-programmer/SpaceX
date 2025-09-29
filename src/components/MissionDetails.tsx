@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, Rocket, ExternalLink, Globe, Youtube, CircleCheck as CheckCircle, Circle as XCircle, Clock, Zap } from 'lucide-react';
 import { useSpaceXData } from '../hooks/useSpaceXData';
