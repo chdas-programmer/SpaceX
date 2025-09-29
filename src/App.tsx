@@ -44,7 +44,12 @@
       const formatDate = (d: string) => new Date(d).toLocaleDateString("en-US", { month: "2-digit", day: "2-digit", year: "numeric" });
       const formatTime = (d: string) => new Date(d).toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", hour12: false });
 
-      if (loading) return <LoadingGrid />;
+      if (loading) return (
+        <div className="mt-36 p-6 mx-48">
+          <LoadingGrid />
+        </div>
+        
+      ) 
       if (error) return <ErrorMessage message={`Failed to load SpaceX data: ${error}`} onRetry={() => window.location.reload()} />;
 
       return (

@@ -1,8 +1,8 @@
 export const LaunchCardSkeleton = () => {
   return (
-    <div className="bg-white rounded-lg border border-gray-200 p-4 animate-pulse">
+    <div className="bg-white rounded-[15px] border border-gray-200 p-2  animate-pulse">
       <div className="flex items-start justify-between mb-3">
-        <div className="h-6 bg-gray-200 rounded w-3/4"></div>
+        <div className="h-6 bg-gray-200 rounded-full w-3/4"></div>
         <div className="h-4 bg-gray-200 rounded w-16"></div>
       </div>
       
