@@ -19,7 +19,7 @@ export const Header = ({ showFavoritesOnly, setShowFavoritesOnly }: HeaderProps)
           id="favorites-switch"
           checked={showFavoritesOnly}
           onChange={setShowFavoritesOnly}
-        />
+        />  
         <label htmlFor="favorites-switch" className="text-sm text-gray-600">
           Show favorites
         </label>

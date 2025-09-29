@@ -56,7 +56,7 @@ interface FiltersProps {
           label="Successful only" // now RTL can find it
         />
 
-          <label className="text-sm text-gray-600">Successful only</label>
+          {/* <label className="text-sm text-gray-600">Successful only</label> */}
         </div>
       </div>
     );
